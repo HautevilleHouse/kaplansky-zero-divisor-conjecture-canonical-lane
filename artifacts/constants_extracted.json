@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "domain_transfer": {
+      "components": {
+        "c_domain_raw": 1.116,
+        "e_domain_raw": 0.12,
+        "transfer_gain_raw": 1.029
+      },
+      "formula": "c_domain_raw * transfer_gain_raw - e_domain_raw",
+      "normalized_value": 1.0283639999999998,
+      "notes": "domain_transfer theorem-level floor.",
+      "raw_value": 1.0283639999999998,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.243
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8045052292839904,
+      "notes": "kappa_compact theorem-level floor.",
+      "raw_value": 0.8045052292839904,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_support": {
+      "components": {
+        "c_support_raw": 1.441,
+        "e_support_raw": 0.233,
+        "support_density_raw": 0.917
+      },
+      "formula": "c_support_raw * support_density_raw - e_support_raw",
+      "normalized_value": 1.088397,
+      "notes": "kappa_support theorem-level floor.",
+      "raw_value": 1.088397,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.074
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.074,
+      "notes": "rho_rigidity theorem-level floor.",
+      "raw_value": 1.074,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_cancellation": {
+      "components": {
+        "cancellation_floor_raw": 1.387,
+        "restart_loss_raw": 0.148,
+        "support_loss_raw": 0.167
+      },
+      "formula": "cancellation_floor_raw - support_loss_raw - restart_loss_raw",
+      "normalized_value": 1.072,
+      "notes": "sigma_cancellation theorem-level floor.",
+      "raw_value": 1.072,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "kaplansky_zero_divisor_conjecture",
+  "generated_utc": "2026-03-11T20:48:18Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "7265b9c65f42e824fa28435c562cf2078e93b0002f10706e30cc3f9d8331df27",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.052
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.052,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.052,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KAPLANSKY_ZERO_DIVISOR_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}

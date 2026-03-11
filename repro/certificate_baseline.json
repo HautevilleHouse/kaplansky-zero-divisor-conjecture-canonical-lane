@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "KZD_G1": [],
+    "KZD_G2": [],
+    "KZD_G3": [],
+    "KZD_G4": [],
+    "KZD_G5": [],
+    "KZD_G6": [],
+    "KZD_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8045052292839904
+  },
+  "gates": {
+    "KZD_G1": "PASS",
+    "KZD_G2": "PASS",
+    "KZD_G3": "PASS",
+    "KZD_G4": "PASS",
+    "KZD_G5": "PASS",
+    "KZD_G6": "PASS",
+    "KZD_GM": "PASS"
+  },
+  "inputs": {
+    "domain_transfer": 1.0283639999999998,
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8045052292839904,
+    "kappa_support": 1.088397,
+    "rho_rigidity": 1.074,
+    "sigma_cancellation": 1.072,
+    "sigma_star_can": 1.052
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-11T20:45:13+00:00",
+    "framework": "kaplansky_zero_divisor_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "kaplansky_zero_divisor_conjecture",
+  "generated_utc": "2026-03-11T20:48:19Z",
+  "promoted_constants": {
+    "domain_transfer": 1.0283639999999998,
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8045052292839904,
+    "kappa_support": 1.088397,
+    "rho_rigidity": 1.074,
+    "sigma_cancellation": 1.072
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.052
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}
